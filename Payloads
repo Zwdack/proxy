@@ -1,0 +1,7 @@
+GET http://ecob.claro.com.br/ HTTP/1.1
+User-Agent: [ua][crlf][host][crlf][crlf][raw]CONNECT [host_port] HTTP/1.0[crlf][crlf]CONNECT m.clarosomdechamada.com.br/wap2/login.screen:443 HTTP/1.1[crlf]CONNECT [host_port] HTTP/1.0[crlf][crlf]GET http://m.clarosomdechamada.com.br/wap2/login.screen HTTP/1.0
+Host: m.clarosomdechamada.com.br/wap2/login.screen
+Proxy-Authorization: basic: frontend.claro.com.br
+User-Agent: [ua]
+Connection: close
+Proxy-Connection: Keep-Alive [crlf][host][crlf][crlf][raw]CONNECT [host_port] HTTP/1.0[crlf][crlf][crlf]GET http://frontend.claro.com.br/ HTTP/1.0[crlf]Host: m.clarosomdechamada.com.br/wap2/login.screen [crlf][host][crlf][crlf]CONNECT [host_port] HTTP/1.0[crlf][crlf][realData][crlf][crlf][crlf]
